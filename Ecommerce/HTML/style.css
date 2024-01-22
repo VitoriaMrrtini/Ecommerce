@@ -264,7 +264,7 @@ table{
 th{
     text-align: left;
     padding: 5px;
-    color: #3e3bff;
+    color: #0b0a41;
     background: #88b2ff;
     font-weight: normal;
 }
@@ -291,7 +291,7 @@ td img{
     justify-content: flex-end;
 }
 .total-price table{
-    border-top: 3px solid #3e3bff;
+    border-top: 3px solid #03032b;
     width: 100%;
     max-width: 370px;
 }
