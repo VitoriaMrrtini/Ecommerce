@@ -301,6 +301,29 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+.contatos{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contatos .content{
+    max-height: 800px;
+    text-align: center;
+}
+.contatos .content h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.contatos .content p{
+    font-size: 36px;
+}
+.inputBox{
+    align-content: center;
+}
 
 
 @media only screen and (max-width: 800px){
