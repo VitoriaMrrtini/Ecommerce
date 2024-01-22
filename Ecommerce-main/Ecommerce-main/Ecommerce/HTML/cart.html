@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+     <div class="navBar">
+        <div class="logo">
+            <a href="index.Html">
+                <img src="../IMG/Lojagames.png" alt="Logo" width="125px">
+            </a>
+        </div>
+        <nav>
+            <ul id="menuItens">
+                <li><a href="index.Html">Inicio</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="contatos.html">Contato</a></li>
+                <li><a href="">Conta</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html">
+            <img src="../IMG/images/cart.png" width="30px" height="30px">
+        </a>
+        <img src="../IMG/images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+
+<div class="small-content cart-page">
+    <table>
+        <tr>
+            <th>Produtos</th>
+            <th>quantidade</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="../IMG/images/product-1.jpg">
+                    <div><p>Playstation 5</p>
+                        <small>Preço: 5.000,00</small>
+                        <a href=""><br>remover</a>
+                    </div>
+                </div>
+            </td>
+            <td><Input type="number" value="1"></Input></td>
+            <td>R$ 5.000,00</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>
+                    Subtotal
+                </td>
+                <td>
+                    R$ 5.000,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Taxa de transporte
+                </td>
+                <td>
+                    R$ 35,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total
+                </td>
+                <td>
+                    R$ 5.035,00
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</div>
+
+<!----- Footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Para mais informações</h3>
+                <p>Acesse nossas redes sociais</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="../IMG/images/logo-white.png" alt="">
+                <p>Estamos sempre à disposição para tirar suas dúvidas e oferecer o melhor atendimento. </p>
+                <div class="appLogo">
+                    <a href="https://play.google.com/store/games?device=windows&&utm_source=latam_Med&utm_medium=hasem&utm_content=Dec1622&utm_campaign=Evergreen&pcampaignid=MKT-EDR-latam-br-1707532-Med-hasem-py-Evergreen-Dec1622-Text_Search_BKWS-id_102355_%7CEXA%7CONSEM_kwid_43700074755585164&gclid=Cj0KCQiAwbitBhDIARIsABfFYIJxqwls-IrZflCs60MnopSFF6CNlhRfOXUEMRD7UqIOLI6mlcmoVEEaAkx-EALw_wcB&gclsrc=aw.ds&pli=1">
+                        <img src="../IMG/images/play-store.png" alt="">
+                    </a>
+                    <a href="https://www.apple.com/br/store?afid=p238%7CsC7KKNBEq-dc_mtid_1870765e38482_pcrid_685542610251_pgrid_17049243658_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-">
+                        <img src="../IMG/images/app-store.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-col-3">
+                <h3>links importantes</h3>
+                <ul>
+                    <li>cupons</li>
+                    <li>Blog</li>
+                    <li>Politica de retorno</li>
+                    <li>Seja afiliado</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Nos siga!</h3>
+                <ul>
+                    <a href="https://www.facebook.com/?locale=pt_BR">
+                    <li>Facebook</li>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                    <li>Instagram</li>
+                    </a>
+                    <a href="https://twitter.com/home">
+                    <li>Twitter</li>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                    <li>Youtube</li>
+                    </a>
+                </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2024 - Vitoria e Kaua</p>
+</div>
+
+<script>
+    var menuItens = document.getElementById(menuItens);
+
+    menuItens.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuItens.style.maxHeight == "0px")
+        {
+            menuItens.style.maxHeight = "200px";
+        }
+        else
+        {
+            menuItens.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
