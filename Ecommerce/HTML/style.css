@@ -324,6 +324,29 @@ th:last-child{
 .inputBox{
     align-content: center;
 }
+.Mensagem{
+    text-align: center;
+    align-content: center;
+    padding: 50px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.Mensagem img{
+    display:inline-block;
+    align-content: center;
+    padding: 5px;
+    margin: 50px;
+}
+.btn-error{
+    display: inline-block;
+    align-content: center;
+    background: #88b2ff;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5;
+}
 
 
 @media only screen and (max-width: 800px){
